@@ -19,7 +19,7 @@ body {
   align-items: center;
   flex-direction: column;
 
-  perspective: 500px;
+  perspective: 1000px;
 }
 
 a {
@@ -31,23 +31,25 @@ a {
   min-width: 450px;
   min-height: 500px;
   position: relative;
+  transition: transform 1s;
   transform-style: preserve-3d;
-  transition: trasform 1s;
 }
 
 .forms {
+  position: absolute;
   min-width: 450px;
   min-height: 500px;
   padding: 20px;
   background-color: #35495E;
   border-radius: 5px;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, .2);
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   backface-visibility: hidden;
-  position: absolute;
-  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, .2);
 }
 
 .title {
@@ -88,6 +90,10 @@ button {
 
 button:hover {
   opacity: .75;
+}
+
+.signup {
+  transform: rotateY(180deg);
 }
 
 .flipped {
