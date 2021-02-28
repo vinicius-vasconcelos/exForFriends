@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html, main {
+    width: 100%;
+    height: 100%;
+    background-color: #DFFEF3;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 450px;
+    height: 700px;
+    background-color: #DFFEF3;
+    box-shadow: 5px 5px 15px 0px rgba(56, 64, 61, .2);
+    
+}
+
+.sky {
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(#87CEEB, #DFFEF3);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.sol {
+    width: 120px;
+    height: 120px;
+    margin: 30px;
+    border-radius: 50%;
+    background-image: linear-gradient(#FDF917, #E6CC09);
+   
+}
+
+.body {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #DFFEF3;
+}
+
+.bol {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 10px;
+    right: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(90deg,#EB2668,#F527D3, #9727F5, #EB2668);
+    z-index: 1;
+
+    animation-duration: 5s;
+    animation-name: jumping;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes jumping {
+        0%   {top: -300px;}
+        25%  {top: 230px;}
+        50%  {top: 100px;}
+        75%  {top: 230px;}
+        100% {top: 200px;}
+    }
+
+.shadow {
+    position: absolute;
+    width: 90px;
+    height: 10px;
+    bottom: 0px;
+    right: 100px;
+    border-radius: 50%;
+    background-color: rgba(56, 64, 61, .1);
+
+    animation-duration: 5s;
+    animation-name: near;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes near {
+        0%   {  width: 100px;}
+        25%  {  width: 50px;}
+        50%  {  width: 110px;}
+        75%  {  width: 50px;}
+        100% {  width: 110px;}
+    }
+
+.floor {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(#DFFEF3, #635D51);
+}
+
+.tree {
+    position: absolute;
+    width: 30px;
+    height: 500px;
+    bottom: 0px;
+    left: 90px;
+    background-image: linear-gradient(#635D51, #635D51, #635D51);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.sheets {
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    border-radius: 200px;
+    bottom: 450px;
+    left: 0px;
+    background-image: linear-gradient(#6ab04c, #BCBD48, #9CC74C);
+    z-index: 1;  
+}
