@@ -1,0 +1,10 @@
+@media screen and (min-width: 500px) and (max-width: 599px) {
+    article {
+        width: 55%;
+    }
+
+    button{
+        font-size: 12px;
+        width: 40%;
+    }
+}

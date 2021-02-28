@@ -1,0 +1,9 @@
+@media screen and (min-width: 700px) and (max-width: 799px) {
+    article {
+        width: 45%;
+    }
+
+    button{
+        width: 35%;
+    }
+}

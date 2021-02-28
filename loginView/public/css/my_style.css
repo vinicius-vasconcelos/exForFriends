@@ -1,0 +1,126 @@
+/* --------------------------- ALL ---------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, 
+i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, 
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, 
+section, summary, time, mark, audio, video, main {
+    margin: 0;	
+    padding: 0;	
+    border: 0;	
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, address, main {
+    display: block;
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+    min-zoom: 0.5;
+    max-zoom: 4;
+    orientation: portrait;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* --------------------------- MAIN --------------------------*/
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: #1976d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, #1976d2, #ffffff);
+}
+
+article {
+    width: 25%;
+    height: auto;
+    border: 1px solid #eeeeee;
+    border-radius: 10px; 
+    background-color: #eeeeee;
+    box-shadow: 5px 7px 20px -5px #000000;
+
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 2em;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+    font-style: italic;
+}
+
+hr {
+    width: 90%;
+    height: 3px;
+    background: #000000;
+    margin: -10px auto 1em auto;
+}
+
+form {
+    font-size: 16px;
+    text-align: center;
+}
+
+small {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: #f44336;
+}
+
+/* ########### inputs ###########*/
+input {
+    width: 70%;
+    height: 2.5em;
+    border: none;
+    border-radius: 3px;
+    margin: 1em;
+    padding: 10px;
+    box-shadow: 5px 7px 10px 1px #aaa;
+}
+
+button {
+    width: 30%;
+    height: 3.5em;
+    margin: 10px auto 2em auto;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 5px 7px 10px 1px #aaa;
+    letter-spacing: 2px;
+    cursor:pointer;
+}
+
+button:hover {
+    transition: all;
+    transition-delay: 80ms;
+    transition-duration: 550ms;
+    opacity: 0.5;
+}
+
+/* ########### errors ###########*/
+.error {
+    border: 2px solid #f44336;
+}

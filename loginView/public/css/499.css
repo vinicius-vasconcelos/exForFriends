@@ -1,0 +1,13 @@
+@media screen and (max-width: 499px) {
+    article {
+        width: 70%;
+    }
+    h1 {
+        font-size: 2em;
+    }
+
+    button{
+        font-size: 12px;
+        width: 45%;
+    }
+}
