@@ -1,2 +1,2 @@
-# vinicius-wolf
-Repo destinado a resolver problemas e compartilhar com meu parceiro Wolf e vice-versa
+# exForFriends
+Repo destinado a resolver problemas e compartilhar com meus amigos e vice-versa.
