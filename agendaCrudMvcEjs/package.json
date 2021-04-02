@@ -1,0 +1,18 @@
+{
+  "name": "agendacrudmvcejs",
+  "version": "1.0.0",
+  "description": "Exemplo de uma agenda de contatos em MVC, utilizando socket.io e EJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vinicius-vasconcelos",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
